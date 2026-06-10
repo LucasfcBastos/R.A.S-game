@@ -1,5 +1,8 @@
-if (obj_player.x > x and obj_player.x < x + 96) or (obj_player.x > x + 256 and obj_player.x < x + 374) {
-	depth = -(y + sprite_height) + 50;
+if (obj_player.y < limite_troca) {
+	depth = obj_player.depth - 5;
 } else {
-	depth = -(y + sprite_height);
+	depth = obj_player.depth + 5;
 }
+
+show_debug_message("PLAY: " + string(obj_player.y))
+show_debug_message("BLOC: " + string(limite_troca))

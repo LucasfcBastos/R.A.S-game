@@ -1,5 +1,5 @@
 move_speed = 2;
 
-facing = "down";
+facing = "dowk";
 
 quant = 0

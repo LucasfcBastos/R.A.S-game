@@ -12,10 +12,7 @@
     "name":"objetos-literalmente",
     "path":"folders/Object/objetos-literalmente.yy",
   },
-  "parentObjectId":{
-    "name":"obj_camada",
-    "path":"objects/obj_camada/obj_camada.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
