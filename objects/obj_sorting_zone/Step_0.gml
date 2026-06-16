@@ -15,13 +15,13 @@ if ( bbox_right >= cam_x && bbox_left <= cam_x + cam_w && bbox_bottom >= cam_y &
     {
         if (type == 0)
         {
-            active_collision = (obj_player.y >= y);
+            active_collision = true;
 			layer_depth(layer_id, obj_player.depth + 10)
         }
 
         if (type == 1)
         {
-            active_collision = (obj_player.y <= y);
+            active_collision = true;
 			layer_depth(layer_id, obj_player.depth - 10)
         }
     }
