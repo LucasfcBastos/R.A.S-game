@@ -1,4 +1,4 @@
-parcel_size = 992;
+parcel_size = 320;
 parcelas_x = 10;
 parcelas_y = 10;
 
